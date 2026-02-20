@@ -1,77 +1,63 @@
-# 🥔 Sofapotato Project
+# 🥔 Sofapotato Team
 
-Welcome to the **Sofapotato Project**! This is a collection of high-quality, integrated resources for FiveM servers, designed to provide seamless functionality across various frameworks (QBCore, ESX, etc.) through our custom bridge system.
+Welcome to the official GitHub page of **Sofapotato**. We are a passionate development team dedicated to building high-quality tools, immersive gameplay scripts, and automation solutions for gaming communities.
 
-## 🌟 Overview
+## 🚀 What We Do
 
-The Sofapotato suite includes a variety of scripts ranging from core utilities to interactive gameplay features. All resources are built with performance and customization in mind.
+Our team focuses on two main pillars of development: **FiveM Resources** and **Discord Bot Solutions**.
 
-### 📦 Included Resources
+### 📊 Activity & Stats
 
-| Resource | Description |
-| :--- | :--- |
-| **`sp_bridge`** | The core compatibility layer. Handles framework detection and provides a unified API for other scripts. **Required for all other modules.** |
-| **`sofapotato_mail`** | A complete in-game mail system with a modern UI and database integration. |
-| **`sofapotato_menu`** | An advanced menu system for player interactions. |
-| **`sofapotato_npc`** | NPC management system for creating interactive peds. |
-| **`sofapotato_guidemenu`** | A helpful guide menu for new players to learn server features. |
-| **`sofapotato_Discord_API`** | Integration tools for Discord status updates and event logging. |
-| **`sp_adminmenu`** | Administrative tools for server staff. |
-| **`sofapotato_ui_template`** | A starter template for creating consistent UI designs across resources. |
-| **`sofapotato_role`** | Role management system. |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sofapotato&show_icons=true&theme=radical&count_private=true" alt="Sofapotato's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofapotato&layout=compact&theme=radical" alt="Top Languages" />
+</p>
 
-## 🛠️ Requirements
+### 🎮 FiveM Resource Ecosystem
+We specialize in creating robust, optimized, and cross-framework resources for FiveM servers. Our ecosystem is built upon the **Sofapotato Bridge (`sp_bridge`)**, ensuring seamless compatibility across QBCore, ESX, and standalone environments.
 
-Before installing, ensure your server has the following dependencies:
+**Key Resources:**
+*   **`sp_bridge`**: The core foundation of our ecosystem. A unified compatibility layer that powers all our scripts.
+*   **`sofapotato_mail`**: A feature-rich in-game mailing system with a modern, responsive UI.
+*   **`sofapotato_menu`**: Advanced interactive menu solutions for player management.
+*   **`sofapotato_npc`**: Dynamic NPC management for creating lively server environments.
+*   **`sp_adminmenu`**: Comprehensive administrative tools for server staff.
 
-- **FiveM Server Artifacts** (Latest recommended)
-- **[oxmysql](https://github.com/overextended/oxmysql)** (Required for database interactions)
-- **sp_bridge** (Included in this repository - must be started first)
+### 🤖 Discord Bot Development
+Beyond game scripts, we develop custom Discord bots to bridge the gap between your game server and community platform.
 
-## 🚀 Installation
-
-1.  **Download the Repository**:
-    Clone or download this repository to your computer.
-
-2.  **Copy Files**:
-    Place the `sofapotato` folder (or the individual resource folders inside it) into your server's `resources` directory.
-
-3.  **Database Setup**:
-    - Locate any `.sql` files within the resource folders (e.g., `sofapotato_mail/install/sofapotato_mail.sql`).
-    - Import these SQL files into your database using a tool like HeidiSQL or phpMyAdmin.
-
-4.  **Server Configuration**:
-    Add the following lines to your `server.cfg` file. Ensure `sp_bridge` is started **before** other Sofapotato resources.
-
-    ```cfg
-    # Sofapotato Dependencies
-    ensure oxmysql
-    
-    # Sofapotato Core
-    ensure sp_bridge
-    
-    # Sofapotato Modules
-    ensure sofapotato_menu
-    ensure sofapotato_mail
-    ensure sofapotato_npc
-    ensure sofapotato_guidemenu
-    ensure sofapotato_Discord_API
-    ensure sp_adminmenu
-    # Add other modules as needed
-    ```
-
-## ⚙️ Configuration
-
-Each resource comes with its own `config.lua` file located in its root directory or `shared/` folder. Open these files to customize settings such as:
-- Framework selection (QBCore/ESX/Standalone)
-- UI colors and text
-- Permission levels
-- Gameplay variables
-
-## 🤝 Support
-
-If you encounter issues or have suggestions, please check the existing issues or open a new one on our GitHub repository.
+*   **FiveM Integration**: Seamless syncing between in-game actions and Discord logs (powered by our `sofapotato_Discord_API`).
+*   **Community Management**: Tools for server status monitoring, whitelist management, and automated moderation.
+*   **Custom Solutions**: Tailored bots designed to meet specific community needs.
 
 ---
 
-*Made with ❤️ by Sofapotato Team*
+## 📂 Repository Contents
+
+This repository hosts our collection of open-source FiveM modules.
+
+| Module | Description |
+| :--- | :--- |
+| **`sp_bridge`** | **[CORE]** The required dependency for all Sofapotato scripts. Handles framework logic. |
+| **`sofapotato_mail`** | Advanced mail system with database storage. |
+| **`sofapotato_Discord_API`** | API bridge for sending server events to Discord webhooks/bots. |
+| **`sofapotato_guidemenu`** | Interactive server guide for new players. |
+| **`sofapotato_ui_template`** | Development template for consistent UI design. |
+
+## 🛠️ Usage Guide
+
+If you are using resources from this collection:
+
+1.  **Prerequisites**: Ensure you have `oxmysql` installed for database connectivity.
+2.  **Installation**:
+    - Place the desired folders into your `resources` directory.
+    - **Important**: Always start `sp_bridge` **before** any other Sofapotato resource in your `server.cfg`.
+3.  **Configuration**: Each module contains its own `config.lua` for customization.
+
+## 🤝 Connect With Us
+
+*   **GitHub**: [Sofapotato](https://github.com/sofapotato)
+*   **Support**: Open an issue in this repository for bug reports or feature requests.
+
+---
+*Crafted with ❤️ by the Sofapotato Team*
