@@ -56,7 +56,7 @@ If you are using resources from this collection:
 
 ## 🤝 Connect With Us
 
-*   **GitHub**: [Sofapotato](https://github.com/sofapotato)
+*   **GitHub**: [Sofapotato](https://github.com/sofapotatoes)
 *   **Support**: Open an issue in this repository for bug reports or feature requests.
 
 ---
