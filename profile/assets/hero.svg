@@ -1,104 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="420" viewBox="0 0 1240 420" role="img" aria-labelledby="title desc">
-  <title id="title">SofaPotatoes — Build. Host. Create.</title>
-  <desc id="desc">An editorial dark navy and orange banner for SofaPotatoes, an infrastructure and software studio.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0D131A"/>
-      <stop offset=".56" stop-color="#111B25"/>
-      <stop offset="1" stop-color="#18212A"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#FFBB78"/>
-      <stop offset=".56" stop-color="#FF9544"/>
-      <stop offset="1" stop-color="#E56A25"/>
-    </linearGradient>
-    <radialGradient id="aura">
-      <stop offset="0" stop-color="#FF9544" stop-opacity=".34"/>
-      <stop offset=".5" stop-color="#FF9544" stop-opacity=".09"/>
-      <stop offset="1" stop-color="#FF9544" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#25313F"/>
-      <stop offset="1" stop-color="#111B25"/>
-    </linearGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#8A99A9" stroke-opacity=".09" stroke-width="1"/>
-    </pattern>
-    <clipPath id="frame"><rect width="1240" height="420" rx="24"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#frame)">
-    <rect width="1240" height="420" fill="url(#background)"/>
-    <rect width="1240" height="420" fill="url(#grid)"/>
-    <ellipse cx="1084" cy="142" rx="385" ry="320" fill="url(#aura)"/>
-    <path d="M738-35 1234 461M878-55 1255 325M668 130l592 200" fill="none" stroke="#FF9544" stroke-opacity=".12" stroke-width="1"/>
-    <path d="M794 16C891 73 970 13 1072 52c93 35 104 92 207 67M762 356c107-80 173-42 245-88 76-47 140-60 261-17" fill="none" stroke="#FFB16C" stroke-opacity=".17" stroke-width="1.3"/>
-
-    <g transform="translate(74 42)">
-      <rect width="43" height="43" rx="13" fill="#FF9544"/>
-      <path d="M12 15h13c4 0 6 2 6 5s-2 5-6 5H18m-6 0h13c4 0 6 2 6 5s-2 5-6 5H12" fill="none" stroke="#17202A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="59" y="18" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#E7ECF1">SOFAPOTATOES</text>
-      <text x="59" y="36" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.2" fill="#7F92A6">ENGINEERING STUDIO</text>
-    </g>
-
-    <rect x="76" y="135" width="4" height="110" rx="2" fill="url(#orange)"/>
-    <text x="103" y="176" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800" letter-spacing="-3.8" fill="#F8FAFB">Sofa<tspan fill="#FF9544">Potatoes</tspan></text>
-    <text x="105" y="222" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="600" letter-spacing="-.7" fill="#E7EBF0">Build. Host. Create.</text>
-    <text x="105" y="257" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#98A9B8">Digital infrastructure and experiences,</text>
-    <text x="105" y="281" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#98A9B8">engineered for communities.</text>
-
-    <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">
-      <rect x="105" y="319" width="120" height="34" rx="8" fill="#FF9544" fill-opacity=".13" stroke="#FF9544" stroke-opacity=".45"/>
-      <text x="125" y="340" fill="#FFB87D">HOSTING</text>
-      <rect x="235" y="319" width="99" height="34" rx="8" fill="#D8E0E9" fill-opacity=".05" stroke="#4E6173" stroke-opacity=".55"/>
-      <text x="255" y="340" fill="#C6D2DF">FIVEM</text>
-      <rect x="344" y="319" width="162" height="34" rx="8" fill="#D8E0E9" fill-opacity=".05" stroke="#4E6173" stroke-opacity=".55"/>
-      <text x="364" y="340" fill="#C6D2DF">AUTOMATION</text>
-    </g>
-
-    <g transform="translate(823 64)">
-      <circle cx="164" cy="148" r="174" fill="none" stroke="#FF9544" stroke-opacity=".16" stroke-width="1"/>
-      <circle cx="164" cy="148" r="143" fill="none" stroke="#FF9544" stroke-opacity=".17" stroke-width="1" stroke-dasharray="4 9"/>
-      <circle cx="164" cy="148" r="112" fill="none" stroke="#FF9544" stroke-opacity=".18" stroke-width="1"/>
-      <circle cx="20" cy="38" r="4" fill="#FF9544"/>
-      <circle cx="300" cy="258" r="4" fill="#FF9544"/>
-      <path d="M20 38 77 92M300 258 261 220" fill="none" stroke="#FF9544" stroke-opacity=".55"/>
-    </g>
-
-    <g transform="translate(871 91)">
-      <rect width="263" height="233" rx="18" fill="#0C151F" stroke="#6A7A89" stroke-opacity=".34" stroke-width="1.5"/>
-      <rect x="9" y="9" width="245" height="215" rx="13" fill="url(#panel)" stroke="#D8E4EE" stroke-opacity=".08"/>
-      <path d="M28 55H235" stroke="#597084" stroke-opacity=".48"/>
-      <circle cx="31" cy="30" r="5" fill="#FF9544"/>
-      <text x="46" y="34" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.1" fill="#DDE6EF">SP / SYSTEMS</text>
-      <text x="220" y="34" text-anchor="end" font-family="monospace" font-size="10" fill="#7D92A5">01</text>
-
-      <g transform="translate(27 73)">
-        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
-        <rect x="13" y="11" width="27" height="20" rx="4" fill="#263A4B"/>
-        <path d="M20 21h12" stroke="#FF9544" stroke-width="2.4" stroke-linecap="round"/>
-        <rect x="55" y="13" width="73" height="5" rx="2.5" fill="#7F95A7" fill-opacity=".6"/>
-        <rect x="55" y="23" width="105" height="4" rx="2" fill="#567184" fill-opacity=".38"/>
-        <circle cx="187" cy="21" r="5" fill="#FF9544"/>
-      </g>
-      <g transform="translate(27 122)">
-        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
-        <rect x="13" y="11" width="27" height="20" rx="4" fill="#263A4B"/>
-        <path d="M20 21h12" stroke="#FF9544" stroke-width="2.4" stroke-linecap="round"/>
-        <rect x="55" y="13" width="91" height="5" rx="2.5" fill="#7F95A7" fill-opacity=".6"/>
-        <rect x="55" y="23" width="78" height="4" rx="2" fill="#567184" fill-opacity=".38"/>
-        <circle cx="187" cy="21" r="5" fill="#FF9544"/>
-      </g>
-      <g transform="translate(27 171)">
-        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
-        <text x="13" y="16" font-family="monospace" font-size="10" fill="#87A0B1">NETWORK / PLATFORM</text>
-        <path d="M14 29h40l14-8 16 11 15-9 15 6h28l11-7 19 7h23" fill="none" stroke="#FF9544" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-    </g>
-
-    <path d="M74 383H1166" stroke="#73879B" stroke-opacity=".25"/>
-    <text x="76" y="404" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#8396A8">INDEPENDENT STUDIO  /  TAIWAN</text>
-    <text x="1165" y="404" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#8396A8">SOFAPOTATOES.COM  ↗</text>
-  </g>
-  <rect x=".5" y=".5" width="1239" height="419" rx="23.5" fill="none" stroke="#566474" stroke-opacity=".47"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+<title id="title">SofaPotatoes — Build. Host. Create.</title>
+<desc id="desc">SofaPotatoes technology studio, featuring a beanie-and-sunglasses potato mascot, code terminals, hosting and cloud infrastructure.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080D14"/><stop offset=".54" stop-color="#101C29"/><stop offset="1" stop-color="#07121D"/></linearGradient>
+<linearGradient id="orange" x2=".8" y2="1"><stop stop-color="#FFCB83"/><stop offset=".55" stop-color="#FF9544"/><stop offset="1" stop-color="#E66A1E"/></linearGradient>
+<linearGradient id="cyan" x2="1" y2="1"><stop stop-color="#94EAFF"/><stop offset="1" stop-color="#18A8EF"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#FF9544" stop-opacity=".35"/><stop offset=".5" stop-color="#E67030" stop-opacity=".08"/><stop offset="1" stop-color="#FF9544" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#82A6C8" stroke-opacity=".11"/></pattern>
+<clipPath id="round"><rect width="1280" height="520" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+<rect width="1280" height="520" fill="url(#bg)"/>
+<rect width="1280" height="520" fill="url(#grid)"/>
+<ellipse cx="1070" cy="238" rx="450" ry="355" fill="url(#aura)"/>
+<path d="M720 0h560M770 520h510" stroke="#39BDEB" stroke-opacity=".35"/>
+<path d="M678 52h92l38 38h80M682 466h120l43-43h78M1100 34h104l42 42v76" stroke="#37BFEF" fill="none" stroke-opacity=".38" stroke-width="2"/>
+<circle cx="768" cy="52" r="4" fill="#3CC5F0"/><circle cx="922" cy="423" r="4" fill="#F79343"/><circle cx="1246" cy="151" r="4" fill="#3CC5F0"/>
+<!-- recognizable mascot logo: orange potato wearing black beanie and sunglasses -->
+<g transform="translate(66 42)">
+<rect width="249" height="59" rx="14" fill="#101C28" stroke="#6B7E8C" stroke-opacity=".43"/>
+<g transform="translate(13 9)">
+<path d="M6 18C2 30 4 40 15 42c11 2 26-3 27-15 2-9-5-19-18-20C15 5 9 10 6 18Z" fill="url(#orange)" stroke="#DC7E33" stroke-width="1.5"/>
+<path d="M5 19c-3-10 2-18 14-19 13-1 23 5 25 17-12-6-25-6-39 2Z" fill="#20252C" stroke="#515052" stroke-width="2"/>
+<path d="M4 15c10-6 25-7 41 0" stroke="#30353D" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M8 23h14v10H8zM26 23h14v10H26z" fill="#13191F" stroke="#30343B" stroke-width="2"/><path d="M22 26h4" stroke="#13191F" stroke-width="3"/>
+<path d="M20 36q5 4 10 0" stroke="#433225" stroke-width="2" fill="none" stroke-linecap="round"/>
+</g>
+<text x="68" y="26" fill="#F8FBFE" font-size="19" font-family="Arial,Helvetica,sans-serif" font-weight="700">Sofa<tspan fill="#FF9544">Potatoes</tspan></text>
+<text x="69" y="43" fill="#8DA7B9" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="2.25">ENGINEERING STUDIO</text>
+</g>
+<!-- branding -->
+<rect x="73" y="159" width="5" height="165" rx="2" fill="#FF9544"/>
+<text x="102" y="212" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" letter-spacing="-2.5" fill="#F6FAFE">Sofa<tspan fill="#FF9544">Potatoes</tspan></text>
+<text x="104" y="258" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="-.5" fill="#E3EAF3">Build. Host. Create.</text>
+<text x="105" y="296" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#9BB0C3">Infrastructure, game systems and community software.</text>
+<text x="105" y="328" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#829AAE">Built for real-world use. Engineered for communities.</text>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" letter-spacing="1">
+<rect x="104" y="364" width="129" height="37" rx="9" fill="#FF9544" fill-opacity=".13" stroke="#FF9544" stroke-opacity=".58"/><text x="124" y="387" fill="#FFC28F">HOSTING</text>
+<rect x="244" y="364" width="110" height="37" rx="9" fill="#19B7EB" fill-opacity=".09" stroke="#19B7EB" stroke-opacity=".51"/><text x="267" y="387" fill="#8CE0FF">FIVEM</text>
+<rect x="365" y="364" width="167" height="37" rx="9" fill="#FF9544" fill-opacity=".10" stroke="#FF9544" stroke-opacity=".4"/><text x="384" y="387" fill="#FFC28F">AUTOMATION</text>
+</g>
+<!-- orbit and terminal -->
+<circle cx="1034" cy="247" r="203" stroke="#43C7F1" stroke-opacity=".17" stroke-width="1.5" fill="none"/>
+<circle cx="1034" cy="247" r="169" stroke="#FF9544" stroke-opacity=".27" stroke-dasharray="4 9" fill="none"/>
+<circle cx="1034" cy="247" r="139" stroke="#43C7F1" stroke-opacity=".16" fill="none"/>
+<g transform="translate(820 93)">
+<rect x="0" y="0" width="313" height="287" rx="21" fill="#0A131E" stroke="#547185" stroke-width="1.5"/>
+<rect x="10" y="10" width="293" height="267" rx="14" fill="#111F2C"/>
+<circle cx="29" cy="29" r="5" fill="#FF9544"/><circle cx="47" cy="29" r="5" fill="#E7C079"/><circle cx="65" cy="29" r="5" fill="#3CC5EF"/>
+<text x="285" y="32" fill="#95B0C2" text-anchor="end" font-family="monospace" font-size="12">SP / CORE</text><path d="M20 52H290" stroke="#526D80" stroke-opacity=".55"/>
+<text x="26" y="100" fill="#FFAB68" font-family="monospace" font-size="37" font-weight="700">&lt;/&gt;</text>
+<rect x="103" y="81" width="67" height="6" rx="3" fill="#FF9544"/><rect x="181" y="81" width="66" height="6" rx="3" fill="#24B9F2"/>
+<rect x="27" y="127" width="113" height="7" rx="3" fill="#657F94"/><rect x="149" y="127" width="86" height="7" rx="3" fill="#FF9544"/>
+<rect x="27" y="146" width="205" height="7" rx="3" fill="#25B7F0"/><rect x="242" y="146" width="41" height="7" rx="3" fill="#566F84"/>
+<rect x="27" y="165" width="72" height="7" rx="3" fill="#FF9544"/><rect x="109" y="165" width="143" height="7" rx="3" fill="#748CA0"/>
+<rect x="27" y="184" width="166" height="7" rx="3" fill="#70889A"/><rect x="204" y="184" width="65" height="7" rx="3" fill="#24B9F2"/>
+<rect x="27" y="203" width="92" height="7" rx="3" fill="#24B9F2"/><rect x="131" y="203" width="101" height="7" rx="3" fill="#FF9544"/>
+<rect x="27" y="229" width="259" height="30" rx="6" fill="#162B37" stroke="#31556A"/>
+<text x="41" y="249" fill="#A3D6E5" font-family="monospace" font-size="12">● SYSTEMS / CONNECTED</text>
+</g>
+<g fill="#101E2C" stroke="#2CAFE2" stroke-width="1.7">
+<rect x="1148" y="157" width="67" height="63" rx="14"/><rect x="1148" y="231" width="67" height="63" rx="14"/><rect x="1148" y="305" width="67" height="63" rx="14"/>
+</g>
+<g stroke="#8CDAF7" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1170 189l-6 5 6 5m21-10 6 5-6 5m-8-14-5 27"/><path d="M1164 263q0-9 10-10 6-13 17-4 12-1 13 12 6 1 5 8t-8 6h-27q-10-1-10-12Z"/><circle cx="1181" cy="337" r="12"/><path d="M1181 317v7m0 26v7m-20-20h8m24 0h8"/>
+</g>
+<path d="M70 446H1210" stroke="#6E879B" stroke-opacity=".38"/>
+<text x="72" y="475" fill="#8EA7BC" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2.1">SOFAPOTATOES  /  ENGINEERING &amp; COMMUNITY</text>
+<text x="1208" y="475" fill="#8EA7BC" font-family="Arial,Helvetica,sans-serif" font-size="11" text-anchor="end" letter-spacing="1.3">NETWORK.SOFAPOTATOES.COM</text>
+<rect x=".75" y=".75" width="1278.5" height="518.5" rx="21.5" fill="none" stroke="#628199" stroke-opacity=".52" stroke-width="1.5"/>
+</g></svg>
