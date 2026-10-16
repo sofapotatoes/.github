@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="420" viewBox="0 0 1240 420" role="img" aria-labelledby="title desc">
+  <title id="title">SofaPotatoes — Build. Host. Create.</title>
+  <desc id="desc">An editorial dark navy and orange banner for SofaPotatoes, an infrastructure and software studio.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0D131A"/>
+      <stop offset=".56" stop-color="#111B25"/>
+      <stop offset="1" stop-color="#18212A"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFBB78"/>
+      <stop offset=".56" stop-color="#FF9544"/>
+      <stop offset="1" stop-color="#E56A25"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#FF9544" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#FF9544" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#FF9544" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#25313F"/>
+      <stop offset="1" stop-color="#111B25"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#8A99A9" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1240" height="420" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1240" height="420" fill="url(#background)"/>
+    <rect width="1240" height="420" fill="url(#grid)"/>
+    <ellipse cx="1084" cy="142" rx="385" ry="320" fill="url(#aura)"/>
+    <path d="M738-35 1234 461M878-55 1255 325M668 130l592 200" fill="none" stroke="#FF9544" stroke-opacity=".12" stroke-width="1"/>
+    <path d="M794 16C891 73 970 13 1072 52c93 35 104 92 207 67M762 356c107-80 173-42 245-88 76-47 140-60 261-17" fill="none" stroke="#FFB16C" stroke-opacity=".17" stroke-width="1.3"/>
+
+    <g transform="translate(74 42)">
+      <rect width="43" height="43" rx="13" fill="#FF9544"/>
+      <path d="M12 15h13c4 0 6 2 6 5s-2 5-6 5H18m-6 0h13c4 0 6 2 6 5s-2 5-6 5H12" fill="none" stroke="#17202A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="59" y="18" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#E7ECF1">SOFAPOTATOES</text>
+      <text x="59" y="36" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.2" fill="#7F92A6">ENGINEERING STUDIO</text>
+    </g>
+
+    <rect x="76" y="135" width="4" height="110" rx="2" fill="url(#orange)"/>
+    <text x="103" y="176" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800" letter-spacing="-3.8" fill="#F8FAFB">Sofa<tspan fill="#FF9544">Potatoes</tspan></text>
+    <text x="105" y="222" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="600" letter-spacing="-.7" fill="#E7EBF0">Build. Host. Create.</text>
+    <text x="105" y="257" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#98A9B8">Digital infrastructure and experiences,</text>
+    <text x="105" y="281" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#98A9B8">engineered for communities.</text>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">
+      <rect x="105" y="319" width="120" height="34" rx="8" fill="#FF9544" fill-opacity=".13" stroke="#FF9544" stroke-opacity=".45"/>
+      <text x="125" y="340" fill="#FFB87D">HOSTING</text>
+      <rect x="235" y="319" width="99" height="34" rx="8" fill="#D8E0E9" fill-opacity=".05" stroke="#4E6173" stroke-opacity=".55"/>
+      <text x="255" y="340" fill="#C6D2DF">FIVEM</text>
+      <rect x="344" y="319" width="162" height="34" rx="8" fill="#D8E0E9" fill-opacity=".05" stroke="#4E6173" stroke-opacity=".55"/>
+      <text x="364" y="340" fill="#C6D2DF">AUTOMATION</text>
+    </g>
+
+    <g transform="translate(823 64)">
+      <circle cx="164" cy="148" r="174" fill="none" stroke="#FF9544" stroke-opacity=".16" stroke-width="1"/>
+      <circle cx="164" cy="148" r="143" fill="none" stroke="#FF9544" stroke-opacity=".17" stroke-width="1" stroke-dasharray="4 9"/>
+      <circle cx="164" cy="148" r="112" fill="none" stroke="#FF9544" stroke-opacity=".18" stroke-width="1"/>
+      <circle cx="20" cy="38" r="4" fill="#FF9544"/>
+      <circle cx="300" cy="258" r="4" fill="#FF9544"/>
+      <path d="M20 38 77 92M300 258 261 220" fill="none" stroke="#FF9544" stroke-opacity=".55"/>
+    </g>
+
+    <g transform="translate(871 91)">
+      <rect width="263" height="233" rx="18" fill="#0C151F" stroke="#6A7A89" stroke-opacity=".34" stroke-width="1.5"/>
+      <rect x="9" y="9" width="245" height="215" rx="13" fill="url(#panel)" stroke="#D8E4EE" stroke-opacity=".08"/>
+      <path d="M28 55H235" stroke="#597084" stroke-opacity=".48"/>
+      <circle cx="31" cy="30" r="5" fill="#FF9544"/>
+      <text x="46" y="34" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.1" fill="#DDE6EF">SP / SYSTEMS</text>
+      <text x="220" y="34" text-anchor="end" font-family="monospace" font-size="10" fill="#7D92A5">01</text>
+
+      <g transform="translate(27 73)">
+        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
+        <rect x="13" y="11" width="27" height="20" rx="4" fill="#263A4B"/>
+        <path d="M20 21h12" stroke="#FF9544" stroke-width="2.4" stroke-linecap="round"/>
+        <rect x="55" y="13" width="73" height="5" rx="2.5" fill="#7F95A7" fill-opacity=".6"/>
+        <rect x="55" y="23" width="105" height="4" rx="2" fill="#567184" fill-opacity=".38"/>
+        <circle cx="187" cy="21" r="5" fill="#FF9544"/>
+      </g>
+      <g transform="translate(27 122)">
+        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
+        <rect x="13" y="11" width="27" height="20" rx="4" fill="#263A4B"/>
+        <path d="M20 21h12" stroke="#FF9544" stroke-width="2.4" stroke-linecap="round"/>
+        <rect x="55" y="13" width="91" height="5" rx="2.5" fill="#7F95A7" fill-opacity=".6"/>
+        <rect x="55" y="23" width="78" height="4" rx="2" fill="#567184" fill-opacity=".38"/>
+        <circle cx="187" cy="21" r="5" fill="#FF9544"/>
+      </g>
+      <g transform="translate(27 171)">
+        <rect width="209" height="42" rx="7" fill="#101923" stroke="#43586A" stroke-opacity=".7"/>
+        <text x="13" y="16" font-family="monospace" font-size="10" fill="#87A0B1">NETWORK / PLATFORM</text>
+        <path d="M14 29h40l14-8 16 11 15-9 15 6h28l11-7 19 7h23" fill="none" stroke="#FF9544" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <path d="M74 383H1166" stroke="#73879B" stroke-opacity=".25"/>
+    <text x="76" y="404" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#8396A8">INDEPENDENT STUDIO  /  TAIWAN</text>
+    <text x="1165" y="404" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#8396A8">SOFAPOTATOES.COM  ↗</text>
+  </g>
+  <rect x=".5" y=".5" width="1239" height="419" rx="23.5" fill="none" stroke="#566474" stroke-opacity=".47"/>
+</svg>
