@@ -1,63 +1,70 @@
-# 🥔 Sofapotato Team
+<!-- SofaPotatoes public GitHub organization profile -->
+<div align="center">
+  <a href="https://network.sofapotatoes.com/" title="Visit the SofaPotatoes website">
+    <img src="./assets/hero.svg" width="100%" alt="SofaPotatoes — Build. Host. Create. Infrastructure, FiveM and automation." />
+  </a>
 
-Welcome to the official GitHub page of **Sofapotato**. We are a passionate development team dedicated to building high-quality tools, immersive gameplay scripts, and automation solutions for gaming communities.
+  <br />
 
-## 🚀 What We Do
+  <h3>為社群打造穩定基礎，也為創作者實現更多可能。</h3>
+  <p>
+    Independent engineering studio building infrastructure, game systems and community software.<br />
+    從主機環境、遊戲體驗到日常營運工具，我們重視實際使用感受與長期維護。
+  </p>
 
-Our team focuses on two main pillars of development: **FiveM Resources** and **Discord Bot Solutions**.
+  <p>
+    <a href="https://network.sofapotatoes.com/"><strong>Explore SofaPotatoes ↗</strong></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://github.com/sofapotatoes?tab=repositories">Repositories ↗</a>
+  </p>
+</div>
 
-### 📊 Activity & Stats
+<br />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sofapotatoes&show_icons=true&theme=radical&count_private=true" alt="Sofapotato's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofapotatoes&layout=compact&theme=radical" alt="Top Languages" />
-</p>
+## What we build / 我們的領域
 
-### 🎮 FiveM Resource Ecosystem
-We specialize in creating robust, optimized, and cross-framework resources for FiveM servers. Our ecosystem is built upon the **Sofapotato Bridge (`sp_bridge`)**, ensuring seamless compatibility across QBCore, ESX, and standalone environments.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>01 / INFRASTRUCTURE</sub>
+      <h3>Hosting & Operations</h3>
+      <p>獨立主機、遊戲伺服器架設與基礎設施維運，讓每一個社群都有可靠的運作環境。</p>
+      <p><sub>Dedicated hosting · Server operations · Monitoring</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <sub>02 / GAME EXPERIENCES</sub>
+      <h3>FiveM Development</h3>
+      <p>打造貼合玩家需求的遊戲系統、互動介面與客製化資源，兼顧效能和沉浸感。</p>
+      <p><sub>Game systems · Interface design · Integrations</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <sub>03 / COMMUNITY SOFTWARE</sub>
+      <h3>Tools & Automation</h3>
+      <p>串接 Discord、後端服務與管理流程，減少重複工作，讓營運更清晰有效率。</p>
+      <p><sub>Discord tooling · Backend services · Workflows</sub></p>
+    </td>
+  </tr>
+</table>
 
-**Key Resources:**
-*   **`sp_bridge`**: The core foundation of our ecosystem. A unified compatibility layer that powers all our scripts.
-*   **`sofapotato_mail`**: A feature-rich in-game mailing system with a modern, responsive UI.
-*   **`sofapotato_menu`**: Advanced interactive menu solutions for player management.
-*   **`sofapotato_npc`**: Dynamic NPC management for creating lively server environments.
-*   **`sp_adminmenu`**: Comprehensive administrative tools for server staff.
+## Our approach / 工程理念
 
-### 🤖 Discord Bot Development
-Beyond game scripts, we develop custom Discord bots to bridge the gap between your game server and community platform.
+**Built for real-world use.** 我們不只追求功能完成，更重視系統的可維護性、清楚的權限界線與部署後的實際體驗。
 
-*   **FiveM Integration**: Seamless syncing between in-game actions and Discord logs (powered by our `sofapotato_Discord_API`).
-*   **Community Management**: Tools for server status monitoring, whitelist management, and automated moderation.
-*   **Custom Solutions**: Tailored bots designed to meet specific community needs.
+- **Dependable by design** — 將穩定性、資安與可觀測性納入系統設計。
+- **Details matter** — 從 API 行為到使用介面的細節，都保持一致、可理解。
+- **Community first** — 根據營運者與玩家的真實需求持續改善。
+
+## About this GitHub / 關於這個組織
+
+This is the official GitHub organization of **SofaPotatoes**. We share public projects and development resources here when they are ready for release.
+
+此頁為 SofaPotatoes 官方 GitHub 組織首頁。部分商用產品與營運系統採私人儲存庫維護；**公開展示不代表程式碼已開源**。如需使用公開專案，請以各儲存庫實際提供的授權條款為準。
 
 ---
 
-## 📂 Repository Contents
-
-This repository hosts our collection of open-source FiveM modules.
-
-| Module | Description |
-| :--- | :--- |
-| **`sp_bridge`** | **[CORE]** The required dependency for all Sofapotato scripts. Handles framework logic. |
-| **`sofapotato_mail`** | Advanced mail system with database storage. |
-| **`sofapotato_Discord_API`** | API bridge for sending server events to Discord webhooks/bots. |
-| **`sofapotato_guidemenu`** | Interactive server guide for new players. |
-| **`sofapotato_ui_template`** | Development template for consistent UI design. |
-
-## 🛠️ Usage Guide
-
-If you are using resources from this collection:
-
-1.  **Prerequisites**: Ensure you have `oxmysql` installed for database connectivity.
-2.  **Installation**:
-    - Place the desired folders into your `resources` directory.
-    - **Important**: Always start `sp_bridge` **before** any other Sofapotato resource in your `server.cfg`.
-3.  **Configuration**: Each module contains its own `config.lua` for customization.
-
-## 🤝 Connect With Us
-
-*   **GitHub**: [Sofapotato](https://github.com/sofapotatoes)
-*   **Support**: Open an issue in this repository for bug reports or feature requests.
-
----
-*Crafted with ❤️ by the Sofapotato Team*
+<div align="center">
+  <h3>Have something to build?</h3>
+  <p>主機服務、FiveM 開發或系統整合需求，歡迎透過官方網站與我們聯繫。</p>
+  <p><a href="https://network.sofapotatoes.com/"><strong>Visit the official website →</strong></a></p>
+  <sub>SofaPotatoes · Build. Host. Create.</sub>
+</div>
